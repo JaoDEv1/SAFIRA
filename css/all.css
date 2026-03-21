@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 2.2em;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.menu-ajuda {
+    margin-left: auto;
+}
+
+.menu-ajuda a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.menu-ajuda a:hover {
+    background-color: gray;
+}
+
+.menu-ajuda li {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+
+.menu-topo {
+    display: flex;
+    border-bottom: 1px solid #333333;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-topo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.menu-topo a:hover {
+    background-color: gray;
+}
+
+.menu-topo li {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
