@@ -20,9 +20,10 @@ body {
 
 .titulo {
     color: white;
-    font-size: 2.2em;
+    font-size: 1.3em;
     margin-left: 15px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .menu-ajuda {
@@ -76,4 +77,5 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  margin-top: 53%;
 }
