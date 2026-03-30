@@ -1,96 +1,119 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Fredericka+the+Great&display=swap");
+
+/*
+font-family: "Fredericka the Great", serif;
+font-family: "Audiowide", sans-serif;
+font-family: "Doto", sans-serif;
+*/
+
 body {
-    background-color: rgb(19, 18, 18);
+  background-color: rgb(19, 18, 18); /*Cor de fundo do site*/
 }
 
 .container {
+  /*Essa class mexe no body inteiro do site*/
   width: 70%;
   margin: auto;
 }
 
-.logo img{
-    width: 80px;
+/*Classes para mexer na logo do Safira*/
+.logo img {
+  width: 90px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+/*Classe para mexer na logo texto do site*/
 .titulo {
-    color: white;
-    font-size: 1.3em;
-    margin-left: 15px;
-    font-weight: bold;
-    text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: "Audiowide", sans-serif;
 }
 
+/*Classes para mexer na aba de ajuda*/
 .menu-ajuda {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .menu-ajuda a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
+  /*Link do menu ajuda*/
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
 }
 
 .menu-ajuda a:hover {
-    background-color: gray;
+  /*Quando passar o mouse em cima*/
+  background-color: rgb(76, 95, 176);
 }
 
 .menu-ajuda li {
-    list-style: none;
-    padding: 0;
-    margin: 20px;
+  /*Estilo da lista dos links*/
+  list-style: none;
+  padding: 0;
+  margin: 20px;
 }
 
+/*Classes para mexer no menu de navegação*/
 .menu-topo {
-    display: flex;
-    border-bottom: 1px solid #333333;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  border-bottom: 1px solid #333333;
+  align-items: center;
+  gap: 10px;
 }
 
 .menu-topo a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
+  /*Links do menu de navegação*/
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
 }
 
 .menu-topo a:hover {
-    background-color: gray;
+  /*Quando passar o mouse em cima*/
+  background-color: rgb(76, 95, 176);
 }
 
 .menu-topo li {
-    list-style: none;
-    padding: 0;
-    margin: 5px;
+  /*Estilo da lista dos links do menu*/
+  list-style: none;
+  padding: 0;
+  margin: 5px;
 }
 
 .apresentacao {
-    font-weight: bold;
-    color: white;
+  /*Cabeçalho da aba sobre*/
+  font-weight: bold;
+  color: white;
 }
 
 .sobre {
-    color: white;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+  /*Proposta do projeto na aba sobre*/
+  color: white;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contatos {
-    color: white;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+  /*Contatos da aba ajuda*/
+  color: white;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
+  /*Rodapé do site*/
   color: white;
   text-align: center;
   padding: 20px;
